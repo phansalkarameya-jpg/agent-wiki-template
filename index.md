@@ -19,10 +19,15 @@ Source: Slack personal profile (U05M607LRFD), #team-digital-marketing, #marketin
 ## People
 
 * [[people/ameya-phansalkar]] - Associate Director of Growth Marketing, Dubai | Active
+* [[people/baris-kocdur]] - VP/Director of Marketing — strategy, accountability, AI adoption | Active
+* [[people/rupa-antony]] - Marketing Manager — brand, social, creative assets, content | Active
 * [[people/sabhyata-dubey]] - CRM Manager — CleverTap campaigns, app banners | Active
 * [[people/satpal-singh]] - Paid Search Manager — Google Ads | Active
 * [[people/eda-cesmebasi]] - Paid Marketing Executive — Meta creatives, Salon Search | Active
+* [[people/yana-bautista]] - Paid Marketing Executive — ad campaigns, Pet Healthcare data | Active
 * [[people/bilge-hasekioglu]] - SEO and Product — page indexing, app banners | Active
+* [[people/ishika]] - Marketing team — paired with Satpal on daily updates | Active
+* [[people/zeynep-guney]] - Marketing team | Active
 
 ## Experiments
 
