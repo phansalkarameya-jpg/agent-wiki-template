@@ -22,8 +22,7 @@ This is where daily operational notes are sent. Read this first and use it as th
 - `#marketing-managers` — `C02A9FUNC5R`
 - `#team-crm` — `C052UAZHF19`
 
-<!-- CUSTOMIZE: Set your date range -->
-**Date range:** Fetch all messages from `YYYY-MM-DD` onwards
+**Date range:** Fetch all messages from `2026-03-16` onwards (last 30 days)
 **Source type:** Daily marketing updates, campaign performance, decisions, experiments
 
 ## STEP 2 — CREATE FOLDER STRUCTURE
