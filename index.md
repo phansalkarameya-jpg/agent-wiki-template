@@ -4,7 +4,7 @@
 <!-- After running the bootstrap, this will contain a full catalog of every article. -->
 
 Last updated: 15.04.2026
-Source: [Add your Slack channel here]
+Source: #team-digital-marketing, #okr-marketing, #marketing-cx, #team-marketing, #marketing-managers, #team-crm
 
 ## Channels
 

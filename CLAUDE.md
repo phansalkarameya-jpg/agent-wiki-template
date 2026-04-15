@@ -7,7 +7,14 @@ This wiki is built for agents, not humans. It compiles operational knowledge fro
 ## Owner
 
 Ameya Phansalkar, Associate Director of Growth Marketing. Dubai.
-Primary source channel: Slack
+Primary source: Slack personal profile / daily notes (U05M607LRFD)
+Secondary channels (Slack):
+- #team-digital-marketing (C05QB6E9284)
+- #okr-marketing (C0A9JLK1E5D)
+- #marketing-cx (C095ADY9UBY)
+- #team-marketing (CLQRQUTSN)
+- #marketing-managers (C02A9FUNC5R)
+- #team-crm (C052UAZHF19)
 
 ## Article format
 

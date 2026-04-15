@@ -11,8 +11,18 @@ You are doing a one-time bootstrap job. You will populate this growth marketing 
 
 ## STEP 1 — CONFIGURE
 
-<!-- CUSTOMIZE: Set your Slack channel ID and date range -->
-**Primary source:** Slack channel `YOUR_CHANNEL_ID`
+**Primary source (daily notes):** Ameya's personal Slack profile — user ID `U05M607LRFD`
+This is where daily operational notes are sent. Read this first and use it as the main source of truth.
+
+**Secondary sources:** The following Slack channels (read after the primary source):
+- `#team-digital-marketing` — `C05QB6E9284`
+- `#okr-marketing` — `C0A9JLK1E5D`
+- `#marketing-cx` — `C095ADY9UBY`
+- `#team-marketing` — `CLQRQUTSN`
+- `#marketing-managers` — `C02A9FUNC5R`
+- `#team-crm` — `C052UAZHF19`
+
+<!-- CUSTOMIZE: Set your date range -->
 **Date range:** Fetch all messages from `YYYY-MM-DD` onwards
 **Source type:** Daily marketing updates, campaign performance, decisions, experiments
 
@@ -24,7 +34,7 @@ mkdir -p channels people experiments decisions metrics
 
 ## STEP 3 — FETCH SOURCE MATERIAL
 
-Use the Slack MCP tool to read channel `YOUR_CHANNEL_ID`. Fetch all messages using pagination until you have everything from your start date onwards. These are your source of truth.
+Use the Slack MCP tool to read all six channels listed in Step 1. For each channel, fetch all messages using pagination until you have everything from your start date onwards. These are your source of truth. Note which channel each message came from.
 
 Do not invent or assume anything not explicitly stated in the messages. If a metric is mentioned without a value, note it as [OPEN].
 
