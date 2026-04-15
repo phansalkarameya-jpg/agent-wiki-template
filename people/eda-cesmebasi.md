@@ -8,7 +8,8 @@ last_updated: 15.04.2026
 
 ## Role
 
-Paid Marketing Executive. Manages paid social creatives and Salon-focused Search campaigns.
+Digital Marketing Executive. Manages paid social creatives and Salon-focused Search campaigns.
+**Slack:** U045T4NM0JW | **Daily channel:** #eda-daily (C0AQB5S8K60)
 
 ## Ownership Areas
 

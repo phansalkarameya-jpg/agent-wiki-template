@@ -8,7 +8,8 @@ last_updated: 15.04.2026
 
 ## Role
 
-Paid Search Manager. Manages Google Ads campaigns across Justlife verticals (UAE and KSA).
+Senior Digital Marketing Executive. Manages Google Ads campaigns across Justlife verticals (UAE and KSA).
+**Slack:** U041HL41GNT | **Daily channel:** #satpal-ishika-daily (C0AQLET0WDP)
 
 ## Ownership Areas
 

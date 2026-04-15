@@ -18,6 +18,17 @@ Secondary channels (Slack):
 - #yana-daily (C0APS3SR163)
 - #satpal-ishika-daily (C0AQLET0WDP)
 
+People DMs (read via user ID):
+- Baris Kocdur (U2T0ZR6SZ)
+- Rupa Antony (U027VCHJ01Y)
+- Zeynep Guney (U07NFKYF62H)
+- Bilge Hasekioglu (UE977F9FB)
+- Yana Bautista (U02ENFZDQHY)
+- Ishika Prabhakaran (U09GSMRHA7K)
+- Sabhyata Dubey (U06012AB8QJ)
+- Satpal Singh (U041HL41GNT)
+- Eda Cesmebasi (U045T4NM0JW)
+
 ## Article format
 
 Every article must start with YAML frontmatter:

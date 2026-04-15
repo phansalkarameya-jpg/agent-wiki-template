@@ -9,6 +9,7 @@ last_updated: 15.04.2026
 ## Role
 
 Marketing Manager. Owns brand marketing, social media, creative assets, and content production. Reports to Baris Kocdur. Works closely with Ameya on CRM collateral and paid ad creatives.
+**Slack:** U027VCHJ01Y
 
 ## Ownership Areas
 

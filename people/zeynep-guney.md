@@ -8,7 +8,8 @@ last_updated: 15.04.2026
 
 ## Role
 
-Marketing team member at Justlife. Specific ownership areas not surfaced in Slack data from last 30 days.
+Partnerships Manager at Justlife. Specific ownership areas not surfaced in Slack data from last 30 days.
+**Slack:** U07NFKYF62H
 
 ## Ownership Areas
 

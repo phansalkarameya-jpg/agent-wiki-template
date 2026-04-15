@@ -8,7 +8,8 @@ last_updated: 15.04.2026
 
 ## Role
 
-VP/Director of Marketing at Justlife. Ameya's direct manager. Sets strategic direction across all marketing channels. Based in Turkey (remote).
+VP of Marketing at Justlife. Ameya's direct manager. Sets strategic direction across all marketing channels. Based in Turkey (remote).
+**Slack:** U2T0ZR6SZ
 
 ## Ownership Areas
 

@@ -8,7 +8,8 @@ last_updated: 15.04.2026
 
 ## Role
 
-Paid Marketing Executive at Justlife. Manages paid ad campaigns across verticals.
+Digital Marketing Executive at Justlife. Manages paid ad campaigns across verticals.
+**Slack:** U02ENFZDQHY | **Daily channel:** #yana-daily (C0APS3SR163)
 
 ## Ownership Areas
 

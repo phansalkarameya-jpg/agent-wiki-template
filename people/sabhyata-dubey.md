@@ -8,7 +8,8 @@ last_updated: 15.04.2026
 
 ## Role
 
-CRM Manager. Manages CleverTap campaigns: email journeys, WhatsApp, push notifications, and app banners. Works closely with Ameya and Faisal.
+CRM Executive. Manages CleverTap campaigns: email journeys, WhatsApp, push notifications, and app banners. Works closely with Ameya and Faisal.
+**Slack:** U06012AB8QJ
 
 ## Ownership Areas
 

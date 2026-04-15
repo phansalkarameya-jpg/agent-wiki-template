@@ -8,7 +8,8 @@ last_updated: 15.04.2026
 
 ## Role
 
-SEO and Product Manager. Owns organic search pages and app banner deployments.
+Digital Marketing Team Lead. Owns organic search pages and app banner deployments.
+**Slack:** UE977F9FB
 
 ## Ownership Areas
 

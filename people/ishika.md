@@ -8,7 +8,8 @@ last_updated: 15.04.2026
 
 ## Role
 
-Marketing team member at Justlife. Paired with Satpal Singh on daily updates via #satpal-ishika-daily.
+Jr. Performance Marketing Executive at Justlife. Paired with Satpal Singh on daily updates via #satpal-ishika-daily.
+**Slack:** U09GSMRHA7K | **Daily channel:** #satpal-ishika-daily (C0AQLET0WDP)
 
 ## Ownership Areas
 
