@@ -10,11 +10,13 @@ Ameya Phansalkar, Associate Director of Growth Marketing. Dubai.
 Primary source: Slack personal profile / daily notes (U05M607LRFD)
 Secondary channels (Slack):
 - #team-digital-marketing (C05QB6E9284)
-- #okr-marketing (C0A9JLK1E5D)
-- #marketing-cx (C095ADY9UBY)
+- #marketing-bi (C0780239ABA)
 - #team-marketing (CLQRQUTSN)
 - #marketing-managers (C02A9FUNC5R)
 - #team-crm (C052UAZHF19)
+- #eda-daily (C0AQB5S8K60)
+- #yana-daily (C0APS3SR163)
+- #satpal-ishika-daily (C0AQLET0WDP)
 
 ## Article format
 
