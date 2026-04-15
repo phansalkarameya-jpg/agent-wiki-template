@@ -33,6 +33,9 @@ Campaigns resumed after rain-related pause on Mar 27. Specialty sessions dropped
 - **App Install campaigns** — Google shift working well; considering moving more budget from Search to app install.
 - **Drive folder for creative concepts** — Eda created shared Drive folder for concept ideas and inspirational visuals for paid ads (Apr 9).
 
+- **HC Meta ad structure test** — v1 (1 campaign all creatives) vs v2 (3 campaigns test/winner 20%/80%). Live Apr 15. Evaluate by Apr 18-19 on CTR, CPM, incremental attribution. Temu campaign paused to fund. [OPEN: evaluate results by Apr 18-19]
+- **Back to School HC scaling** — Schools back Apr 20. Scale HC ads as Back to School campaign moment. Decision confirmed Apr 15. [OPEN: confirm scaling plan with paid team by Apr 18-19]
+- **Weekday CRM Meta WP** — Eda proposing weekday booking campaign with AED 110 off via Meta WP voucher. [OPEN: finalize weekday credit restriction mechanism]
 ## Blockers
 
 - Specialty sessions drop: spend was higher but sessions fell WoW (week of Apr 5). Root cause under investigation — Disha waiting for Ameya's analysis on which vertical dropped and why.
@@ -45,7 +48,10 @@ Campaigns resumed after rain-related pause on Mar 27. Specialty sessions dropped
 | Investigate specialty sessions drop by vertical | Ameya | Open |
 | Confirm Meta Conversion Lift test is live | Ameya | Open |
 | Align with Eda on Salon Meta concepts to proceed | Ameya | Open |
-| AB test tracker: update all paid ad tests since Apr 1 with CTR, CPM | Eda, Satpal, Yana | Open — requested Apr 13 |
+| AB test tracker: update all paid ad tests since Apr 1 | Eda, Satpal, Yana | Open |
+| HC Meta structure test evaluation | Ameya + Bilge | Active — by Apr 18-19 |
+| Back to School scale plan confirmation | Ameya + Paid team | Active — by Apr 18-19 |
+| Weekday CRM credit restriction mechanism | Ameya + Eda | Open |
 
 ## Backlinks
 

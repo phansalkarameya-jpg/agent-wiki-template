@@ -7,9 +7,9 @@ Source: Slack personal profile (U05M607LRFD), #team-digital-marketing, #marketin
 
 ## Channels
 
-* [[channels/paid-social]] - Meta, TikTok, Snapchat — campaigns live; Meta Conversion Lift test in setup; specialty sessions drop under investigation | Active
+* [[channels/paid-social]] - Meta, TikTok, Snapchat — HC structure test live (Apr 15); Back to School Apr 20; CPI increase flagged | Active
 * [[channels/paid-search]] - Google Ads — app install shift working; Salon user-type campaigns in progress | Active
-* [[channels/seo]] - Organic — Salon/Handyman/Spa pages built but not yet indexed | Active
+* [[channels/seo]] - Organic — Claude cannibalization skill built; 0/5 verticals safe to index; canonical plan via product | Active
 * [[channels/crm-email]] - CleverTap — weekly journeys active; first name personalisation available for v7.17+ | Active
 * [[channels/crm-whatsapp]] - CleverTap — WA cost USD 0.0499/msg; HC CRM AB test active | Active
 * [[channels/crm-push]] - CleverTap — HC CRM AB test active; CleverTap API integration in progress | Active
@@ -28,6 +28,9 @@ Source: Slack personal profile (U05M607LRFD), #team-digital-marketing, #marketin
 * [[people/bilge-hasekioglu]] - SEO and Product — page indexing, app banners | Active
 * [[people/ishika]] - Marketing team — paired with Satpal on daily updates | Active
 * [[people/zeynep-guney]] - Marketing team | Active
+* [[people/ahmet-ozsari]] - Engineering/Data — provisioned marketing DB (PostgreSQL, Apr 15) | Active
+* [[people/kerem-kuyucu]] - Leadership — Back to School scale decision (Apr 15) | Active
+* [[people/swapnil-rai]] - Data review sign-off | Active
 
 ## Experiments
 

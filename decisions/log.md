@@ -76,3 +76,22 @@ Baris requested Search ads for roofing. Ameya confirmed Satpal informed. Source:
 
 **WA cost increase: USD 0.0499/message since Jan 2026**
 All WA campaign ROI calculations must use updated cost. Source: #team-digital-marketing, Mar 19.
+
+---
+
+## 15.04.2026
+
+**HC Meta ad structure: test/winner model live**
+v1 = 1 campaign, all creatives; v2 = 3 campaigns, spend 20%, evaluate winner, allocate 80%. Temu campaign paused to fund test. Evaluate in 3-4 days on CTR, CPM, incremental attribution. For low-spend services: single campaign only, pause underperformers. Source: DM Ameya + Bilge, Apr 15.
+
+**SEO high-risk pages: canonical tags preferred over no-index**
+Bilge built Claude skill to compare funnel content vs SEO pages for cannibalization. Output: none of 5 live verticals safe to index yet; 1 high-risk page per vertical. Plan: complete remaining funnel content first, then add canonical tags for high-risk pages (not no-index) via product team. Source: DM Ameya + Bilge, Apr 15.
+
+**Back to School HC scale: go-ahead for April 20**
+Schools back April 20. Treat as Back to School campaign moment. Scale HC ads. Decision: confirmed by Ameya + Kerem. Source: Group DM HC (Cagatay, Kerem, Baris, Rupa), Apr 15.
+
+**Weekday Meta CRM: AED 110 off via voucher**
+For weekday bookings CRM initiative via Meta WP campaign, use AED 110 off voucher (vs AED 90 in weekly WA). Weekday credit restriction mechanism to be confirmed. Source: Group DM Eda + Bilge + Ameya, Apr 15.
+
+**Healthcare sale A/B test (Thank You page): defer to tomorrow**
+Sabhyata off today; neither Sabhyata nor Bilge know how to set up. Deferred to Apr 16 with Ameya's guidance. Source: Healthcare sale group DM, Apr 15.
