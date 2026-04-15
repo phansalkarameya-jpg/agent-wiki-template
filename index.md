@@ -4,19 +4,26 @@
 <!-- After running the bootstrap, this will contain a full catalog of every article. -->
 
 Last updated: 15.04.2026
-Source: [Add your source here — e.g. Slack channel, meeting notes, Google Docs]
+Source: [Add your Slack channel here]
 
-## Workstreams
+## Channels
 
-* [[workstreams/example]] - Replace with your workstreams after bootstrap | Active
+* [[channels/paid-social]] - Meta Ads, TikTok Ads, Snapchat | Active
+* [[channels/paid-search]] - Google Ads | Active
+* [[channels/seo]] - Organic search | Active
+* [[channels/crm-email]] - CRM email via CleverTap | Active
+* [[channels/crm-whatsapp]] - CRM WhatsApp via CleverTap | Active
+* [[channels/crm-push]] - Push notifications via CleverTap | Active
+* [[channels/crm-sms]] - CRM SMS via CleverTap | Active
+* [[channels/affiliate]] - Affiliate marketing | Active
 
 ## People
 
-* [[people/example]] - Replace with your team after bootstrap | Active
+* [[people/ameya-phansalkar]] - Associate Director of Growth Marketing | Active
 
 ## Experiments
 
-* [[experiments/example]] - Replace with your experiments after bootstrap | Active
+* [[experiments/example]] - Replace with active experiments after bootstrap | Active
 
 ## Decisions
 
@@ -24,5 +31,5 @@ Source: [Add your source here — e.g. Slack channel, meeting notes, Google Docs
 
 ## Metrics
 
-* [[metrics/definitions]] - Metric definitions and benchmarks
-* [[metrics/weekly-benchmarks]] - Current targets and thresholds
+* [[metrics/definitions]] - CPA, CPA/LTV, CVR, Installs, CPI, Bookings, YoY Growth
+* [[metrics/weekly-benchmarks]] - Current targets and thresholds by channel

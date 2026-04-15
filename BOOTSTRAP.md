@@ -1,71 +1,64 @@
 # Bootstrap Prompt
 
-Copy everything below the line into Claude Code to generate your wiki. Customize the sections marked with `<!-- CUSTOMIZE -->` before running.
+Copy everything below the line into Claude Code to generate your wiki from your Slack history.
+Customize the sections marked with `<!-- CUSTOMIZE -->` before running.
 
 ---
 
-You are doing a one-time bootstrap job. You will populate this repo with a structured knowledge wiki based on my operational history.
+You are doing a one-time bootstrap job. You will populate this growth marketing wiki with structured knowledge based on Slack history.
+
+**Owner:** Ameya Phansalkar, Associate Director of Growth Marketing, Dubai.
 
 ## STEP 1 — CONFIGURE
 
-<!-- CUSTOMIZE: Set your data source -->
+<!-- CUSTOMIZE: Set your Slack channel ID and date range -->
 **Primary source:** Slack channel `YOUR_CHANNEL_ID`
 **Date range:** Fetch all messages from `YYYY-MM-DD` onwards
-**Source type:** Daily briefings / standup updates / operational notes
-
-<!-- CUSTOMIZE: If not using Slack, replace Step 3 below with your data source.
-Examples:
-- "Read the last 30 messages from my Apple Notes"
-- "Read the Google Doc at [URL]"
-- "I'll paste my meeting notes below: [paste]"
--->
+**Source type:** Daily marketing updates, campaign performance, decisions, experiments
 
 ## STEP 2 — CREATE FOLDER STRUCTURE
 
 ```bash
-mkdir -p workstreams people experiments decisions metrics
+mkdir -p channels people experiments decisions metrics
 ```
 
 ## STEP 3 — FETCH SOURCE MATERIAL
 
-Use the Slack MCP tool to read channel `YOUR_CHANNEL_ID`. Fetch all messages using pagination until you have everything from your start date onwards. These are your source of truth. Do not invent or assume anything not explicitly stated in these messages.
+Use the Slack MCP tool to read channel `YOUR_CHANNEL_ID`. Fetch all messages using pagination until you have everything from your start date onwards. These are your source of truth.
 
-<!-- CUSTOMIZE: If using a different source, replace this step. The key requirement is that you end up with a chronological record of decisions, updates, and context. -->
+Do not invent or assume anything not explicitly stated in the messages. If a metric is mentioned without a value, note it as [OPEN].
 
 ## STEP 4 — CREATE ARTICLES
 
-For each category below, extract everything relevant from the source history and write structured articles. Use only what appears in the source. Be specific. Include real numbers. Every article must have YAML frontmatter, content body, and a Backlinks section.
+### Channels
 
-### Workstreams
-<!-- CUSTOMIZE: List your workstreams. Examples: -->
+Create one article per channel below. For each, extract: current performance status, CPA, CPI, installs, bookings, conversion rate, YoY growth, active campaigns, blockers, open items, and owners. Include the platform and attribution source.
 
-**workstreams/[name].md** — Include: current status, active campaigns or initiatives, key metrics, blockers, open items. Key people involved.
+**channels/paid-social.md** — Meta Ads, TikTok Ads, Snapchat. Include: spend pacing, CPA by platform, install volume, booking numbers, active creative tests, audience changes, blockers.
 
-<!-- Add one entry per workstream. Be specific about what to extract:
-workstreams/product-launch.md — Include: launch timeline, feature list, blockers, go/no-go criteria, QA status. Key people: [names].
-workstreams/growth.md — Include: channel performance, CAC by channel, active experiments, weekly targets. Key people: [names].
-workstreams/partnerships.md — Include: active deals, pipeline status, revenue share terms, open negotiations. Key people: [names].
--->
+**channels/paid-search.md** — Google Ads. Include: spend pacing, CPA, Quality Score trends, keyword changes, campaign structure updates, blockers.
+
+**channels/seo.md** — Organic search. Include: traffic trends, ranking changes, content initiatives, technical issues, YoY growth.
+
+**channels/crm-email.md** — CRM email via CleverTap. Include: open rate, CTR, conversion rate, active journeys, A/B tests, segment changes, blockers.
+
+**channels/crm-whatsapp.md** — CRM WhatsApp via CleverTap. Include: delivery rate, open rate, CTR, conversion rate, active campaigns, opt-out trends, blockers.
+
+**channels/crm-push.md** — Push notifications via CleverTap. Include: delivery rate, open rate, CTR, conversion rate, active journeys, blockers.
+
+**channels/crm-sms.md** — CRM SMS via CleverTap. Include: delivery rate, CTR, conversion rate, active campaigns, blockers.
+
+**channels/affiliate.md** — Affiliate marketing. Include: active partners, commission structure, attributed installs and bookings, CPA, payout status, open items.
 
 ### People
-<!-- CUSTOMIZE: List the people to track. Examples: -->
 
-**people/[name].md** — Include: role, ownership areas, all open items assigned to them across all source messages, delivery patterns (items carried over multiple days), bandwidth flags.
+**people/[name].md** — For each person mentioned in the source: role, channels they own, open items assigned to them, delivery patterns, bandwidth flags.
 
-<!-- Add one entry per person:
-people/alice.md — Include: role (engineering lead), ownership areas (API, infrastructure), open items, sprint commitments vs delivery.
-people/bob.md — Include: role (product manager), ownership areas (roadmap, stakeholder comms), open items, decision patterns.
--->
+Be sure to create **people/ameya-phansalkar.md** as the primary owner article.
 
 ### Experiments
-<!-- CUSTOMIZE: List any active or recent experiments. Examples: -->
 
-**experiments/[name].md** — Include: hypothesis, mechanic, result (with numbers), status (Active / Resolved), next steps.
-
-<!-- Add one entry per experiment:
-experiments/pricing-test-q1.md — Include: hypothesis (higher price = same conversion), variant details, conversion numbers, revenue impact, decision made.
-experiments/onboarding-flow-v2.md — Include: hypothesis (shorter flow = higher activation), funnel metrics, drop-off rates, status.
--->
+**experiments/[name].md** — For each A/B test, creative test, audience test, or channel experiment mentioned. Include: channel, platform, hypothesis, mechanic, results with numbers (CPA, CPI, installs, bookings, conversion rate), status, next step.
 
 ### Decisions Log
 
@@ -75,16 +68,21 @@ experiments/onboarding-flow-v2.md — Include: hypothesis (shorter flow = higher
 ## DD.MM.YYYY
 
 **Decision title**
-What was decided, one to three sentences max. Source: [which message/meeting].
+What was decided, one to three sentences max. Channel affected. Source: [which message].
 ```
 
 Extract every clear decision from all source messages in chronological order.
 
 ### Metrics
 
-**metrics/definitions.md** — Define every metric mentioned across all source messages. For each: name, definition as used at your company, current benchmark or target.
+**metrics/definitions.md** — Define each metric as used at this company. For each: name, definition, how it's calculated (formula + data source — Adjust or GA4), current benchmark or target.
 
-**metrics/weekly-benchmarks.md** — Extract every number mentioned as a target or threshold. Format as a table: Metric | Target/Threshold | Source | Date mentioned.
+Metrics to define: CPA, CPA/LTV, Conversion Rate, Install Volume, CPI, Bookings, YoY Growth.
+
+**metrics/weekly-benchmarks.md** — Extract every number mentioned as a target or threshold. Format as a table:
+
+| Metric | Channel | Target | Actual | Source | Date |
+|---|---|---|---|---|---|
 
 ## STEP 5 — CREATE INDEX
 
@@ -94,23 +92,30 @@ Write `index.md` as a full catalog of every article created:
 # Wiki Index
 
 Last updated: [today's date DD.MM.YYYY]
-Source: [your source description]
+Source: Slack channel [YOUR_CHANNEL_ID], [date range]
 
-## Workstreams
-* [[workstreams/name]] - [one-line summary] | [status]
+## Channels
+* [[channels/paid-social]] - [one-line status] | Active
+* [[channels/paid-search]] - [one-line status] | Active
+* [[channels/seo]] - [one-line status] | Active
+* [[channels/crm-email]] - [one-line status] | Active
+* [[channels/crm-whatsapp]] - [one-line status] | Active
+* [[channels/crm-push]] - [one-line status] | Active
+* [[channels/crm-sms]] - [one-line status] | Active
+* [[channels/affiliate]] - [one-line status] | Active
 
 ## People
-* [[people/name]] - [one-line summary] | Active
+* [[people/name]] - [role summary] | Active
 
 ## Experiments
-* [[experiments/name]] - [one-line summary] | [status]
+* [[experiments/name]] - [hypothesis summary] | [status]
 
 ## Decisions
 * [[decisions/log]] - Chronological log of all decisions
 
 ## Metrics
-* [[metrics/definitions]] - Metric definitions and benchmarks
-* [[metrics/weekly-benchmarks]] - Current targets and thresholds
+* [[metrics/definitions]] - CPA, CPA/LTV, CVR, Installs, CPI, Bookings, YoY Growth
+* [[metrics/weekly-benchmarks]] - Current targets and thresholds by channel
 ```
 
 ## STEP 6 — CREATE LOG
@@ -122,7 +127,7 @@ Write `log.md`:
 
 ## [today's date] bootstrap
 
-Initial wiki created from [source description], covering [date range].
+Initial wiki created from Slack channel [YOUR_CHANNEL_ID], covering [date range].
 Articles created: [count per folder]. Source messages processed: [count].
 ```
 
@@ -130,15 +135,16 @@ Articles created: [count per folder]. Source messages processed: [count].
 
 ```bash
 git add .
-git commit -m "bootstrap: initial wiki from [source] [date range]"
-git push -u origin main
+git commit -m "bootstrap: initial wiki from Slack [date range]"
+git push origin main
 ```
 
 ## STEP 8 — FINAL OUTPUT
 
 After pushing, print:
-1. GitHub repo URL
+1. GitHub repo URL: `https://github.com/phansalkarameya-jpg/agent-wiki-template`
 2. Article count per folder
 3. Any gaps where source data was thin or missing
-4. The raw base URL for fetching articles: `https://raw.githubusercontent.com/USERNAME/REPO/main/`
-5. The Step 0 line to add to your agent prompts, with the real index.md URL
+4. The Step 0 line to add to your agent prompts:
+
+> Before taking any action, read the wiki index at `https://raw.githubusercontent.com/phansalkarameya-jpg/agent-wiki-template/main/index.md` and fetch any articles relevant to this task.
